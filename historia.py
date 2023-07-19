@@ -69,7 +69,7 @@ def historia():
         with q_sismo:
             st.write("Un `sismo` es un temblor o una sacudida de la tierra por causas internas. El término es sinónimo de terremoto o seísmo, aunque en algunas regiones geográficas los conceptos de sismo o seísmo se utilizan para hacer referencia a temblores de menor intensidad que un terremoto. Una de las principales causas de los sismos es la deformación de las rocas contiguas a una falla activa, que liberan su energía potencial acumulada y producen grandes temblores. Los procesos volcánicos, los movimientos de laderas y el hundimiento de cavidades cársticas también pueden generar sismos. Estos movimientos se producen por el choque de las placas tectónicas. La colisión libera energía mientras los materiales de la corteza terrestre se reorganizan para volver a alcanzar el equilibrio mecánico. También pueden ocurrir por otras causas, como por ejemplo, impactos de asteroides o de cualquier objeto celeste de gran tamaño, o incluso pueden ser producidos por el ser humano al realizar detonaciones nucleares subterráneas.")
             if q_sismo:
-                imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\sismo.jpg")
+                imagen = Image.open(r"Imagenes/sismo.jpg")
                 st.image(imagen, "Imagen referencial de un Sismo", width=750)
     with col2:
         # seleccion = st.selectbox("Selecciona la informacion que deseas consultar",options=["", "¿Que es un Sismo?", "Causas de los sismos", "Cinturon de Fuego", "Epicentro e Hipocentro", "Terminos de Sismos" ])
