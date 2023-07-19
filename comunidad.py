@@ -111,7 +111,7 @@ def comunidad():
             st.write("Esta es toda la informacion que pudimos encontrar en nuestros registros.")
             st.write(f"Contamos con `{len(df)}` registros para el año `{anio}`")
             df_muestra = df_muestra.rename(columns={"Fecha_del_sismo":"Fecha del Sismo", "Hora_del_sismo": "Hora del Sismo", "Profundidad_Km": "Profundidad (KM)", "Tipo_Magnitud": "Tipo de Magnitud", "Lugar_del_Epicentro":"Lugar del Epicentro", "ID_Pais": "Pais"})
-            st.dataframe(df_muestra, width=1200)
+            st.table(df_muestra, width=1200)
             st.write("Informacion Importante: ")
             st.write("1. Mmmm :thinking_face: viendo estos datos, sabemos que tal vez no entiendas que pueden significar")
             st.write("2. A veces nosotros tampoco pero shhh :zipper_mouth_face:")
