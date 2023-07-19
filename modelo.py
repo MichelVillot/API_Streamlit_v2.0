@@ -32,7 +32,8 @@ from comunidad import comunidad
 from recomendaciones import recomendaciones
 
 
-apikey = os.environ.get('apikey')
+#apikey = os.environ.get('apikey')
+apikey = "AIzaSyC_qS5na3IL6B4VwQz9YoZ2sKgkEDSP6Gs"
                             
 def modelo(latitud, longitud, distancia_km):
     # Título de la aplicación
