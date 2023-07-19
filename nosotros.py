@@ -36,14 +36,14 @@ import os
 def nosotros():
 
     st.title("`Quienes Somos`")
-    st.subheader("Somos una consultora con 3 años de experiencia en el mundo de los datos. Somos data-driven, todas nuestras acciones estan basadas y fundamentadas en datos")
+    st.subheader("Somos una consultora con 3 años de experiencia en el mundo de los datos. Somos data-driven, todas nuestras acciones están basadas y fundamentadas en datos")
 
-    st.subheader("Contamos con un equipo multidisciplinario, donde cada uno posee grandes habilidades tecnicas y personales")
+    st.subheader("Contamos con un equipo multidisciplinario, donde cada uno posee grandes habilidades técnicas y personales")
 
-    st.title("`Mision`")
+    st.title("`Misión`")
     st.subheader("Nuestra mision es ayudar a las organizaciones a aprovechar al máximo el poder de sus datos. Nos comprometemos a brindar soluciones innovadoras y estratégicas que impulsen la toma de decisiones basada en datos, fomenten la eficiencia operativa y generen un impacto positivo en el rendimiento y el crecimiento de nuestros clientes.")
 
-    st.title("`Vision`")
+    st.title("`Visión`")
     st.subheader("La visión como consultora de datos es convertirnos en líderes reconocidos a nivel mundial en el campo de la ciencia de datos y análisis de datos. Nos esforzamos por ser la consultora de referencia para las organizaciones que buscan maximizar el valor de sus datos y utilizarlos como un activo estratégico para la toma de decisiones.",)
 
     st.title("`Nuestro Equipo`")
