@@ -90,7 +90,7 @@ def historia():
         with q_sismo:
             st.write("El `cinturón de fuego` del Pacífico o anillo de fuego del Pacífico es una de las zonas de subducción ubicada en las costas del océano Pacífico caracterizada por ser algunas de las regiones sísmicas y volcánicas más importantes y activas del mundo. El lecho del océano Pacífico reposa sobre varias placas tectónicas que están en permanente fricción y por ende, acumulan tensión. Cuando esa tensión se libera, origina terremotos en los países del cinturón. Además, la zona concentra actividad volcánica constante. En esta zona las placas de la corteza terrestre se hunden a gran velocidad (varios centímetros por año) y a la vez acumulan enormes tensiones que deben liberarse en forma de sismos.")
             if q_sismo:
-                imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\cinturon de fuego.png")
+                imagen = Image.open(r"Imagenes/cinturon de fuego.png")
                 st.image(imagen, "Cinturon de Fuego", width=750)
     with col2:
         # seleccion = st.selectbox("Selecciona la informacion que deseas consultar",options=["", "¿Que es un Sismo?", "Causas de los sismos", "Cinturon de Fuego", "Epicentro e Hipocentro", "Terminos de Sismos" ])
@@ -99,7 +99,7 @@ def historia():
             st.write("El `epicentro` es el punto en la superficie de la Tierra que se encuentra sobre la proyección vertical del hipocentro o foco, el punto del interior de la Tierra en el que se origina un terremoto. El epicentro es usualmente el lugar con mayor daño. Sin embargo, en el caso de grandes terremotos, la longitud de la ruptura de la falla puede ser muy grande, por lo que el mayor daño puede localizarse no en el epicentro, sino en cualquier otro punto de la zona de ruptura. El epicentro es usualmente el lugar con mayor daño. Sin embargo, en el caso de grandes terremotos, la longitud de la ruptura de la falla puede ser muy grande, por lo que el mayor daño puede localizarse no en el epicentro, sino en cualquier otro punto de la zona de ruptura.")
             st.write("El `hipocentro`, foco de un terremoto o foco sísmico, es el punto interior de la Tierra donde se inicia un movimiento sísmico o terremoto.​El epicentro es la proyección del hipocentro sobre la superficie terrestre, la vertical del foco; que suele ser el lugar donde el sismo se siente con mayor intensidad.​ El hipocentro es un punto del interior de la litosfera, mientras que el epicentro está en la superficie de esta.")
             if q_sismo:
-                imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\epicentro hipocentro.png")
+                imagen = Image.open(r"Imagenes/epicentro hipocentro.png")
                 st.image(imagen, "Imagen referencial de un Sismo", width=750)
 
         
@@ -115,7 +115,7 @@ def historia():
             st.write("`Magnitud de ondas superficiales (Ms)`: Esta magnitud se calcula utilizando las ondas superficiales de los sismos, las que son filtradas dejando pasar solo las con períodos entre 15 y 25 segundos, de ellas se seleccionan las que poseen mayor amplitud. Uno de los problemas que genera este método es que las ondas de períodos entre 15 a 20 segundos se saturan para un sismo de magnitud cercana a 8 grados o superior, por lo que este método no permite calcular adecuadamente la magnitud de sismos mayores, lo que en estos casos obliga a utilizar otro tipo de medición.")
             st.write("`Magnitud de Momento(Mw)`: Esta fórmula permite medir un sismo calculando el tamaño de la falla (el producto del largo por su ancho) y el desplazamiento promedio que se produjo en la ruptura. ")
             if q_sismo:
-                imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\magnitud.jpg")
+                imagen = Image.open(r"Imagenes/magnitud.jpg")
                 st.image(imagen, "Imagen referencial - Medicion de Magnitud", width=750)
     with col2:
         # seleccion = st.selectbox("Selecciona la informacion que deseas consultar",options=["", "¿Que es un Sismo?", "Causas de los sismos", "Cinturon de Fuego", "Epicentro e Hipocentro", "Terminos de Sismos" ])
