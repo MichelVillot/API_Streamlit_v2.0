@@ -67,8 +67,8 @@ def comunidad():
         elif pais == "JAPON":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],index=0)
             with col2:
-                 imagen = Image.open(r"Imagenes/bandera japon.jpg")
-                 st.image(imagen, "Bandera de Japon", width=300)
+                imagen = Image.open(r"Imagenes/bandera japon.jpg")
+                st.image(imagen, "Bandera de Japon", width=300)
                 if anio != " ":
                     with col1:
                         with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
@@ -76,8 +76,8 @@ def comunidad():
         elif pais == "USA":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2018,2019,2020,2021,2022,2023], index=0)
             with col2:
-                 imagen = Image.open(r"Imagenes/bandera usa.jpg")
-                 st.image(imagen, "Bandera de Estados Unidos", width=300)
+                imagen = Image.open(r"Imagenes/bandera usa.jpg")
+                st.image(imagen, "Bandera de Estados Unidos", width=300)
                 if anio != "":
                     with col1:
                         with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
