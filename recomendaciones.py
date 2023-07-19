@@ -42,7 +42,7 @@ def recomendaciones():
         selec = st.selectbox("Selecciona la Intensidad del sismo", options=["",0,1,2,3,4,"5-","5+","6-","6+",7], index=0)
     with col1:
         if selec == 0:
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo0.png")
+            image = Image.open(r"Imagenes/r_sismo0.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -59,7 +59,7 @@ def recomendaciones():
 
     with col1:
         if selec == 1:
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo1.png")
+            image = Image.open(r"Imagenes/r_sismo1.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -76,7 +76,7 @@ def recomendaciones():
 
     with col1:
         if selec == 2:
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo2.png")
+            image = Image.open(r"Imagenes/r_sismo2.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -96,7 +96,7 @@ def recomendaciones():
                                         
     with col1:
         if selec == 3:
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo3.png")
+            image = Image.open(r"Imagenes/r_sismo3.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -117,7 +117,7 @@ def recomendaciones():
                     
     with col1:
         if selec == 4:
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo4.png")
+            image = Image.open(r"Imagenes/r_sismo4.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -139,7 +139,7 @@ def recomendaciones():
                     
     with col1:
         if selec == "5-":
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo5-.png")
+            image = Image.open(r"Imagenes/r_sismo5-.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -165,7 +165,7 @@ def recomendaciones():
                     st.write("Permanece alerta ante posibles réplicas y sigue las noticias y actualizaciones de las autoridades locales.")
                       
         elif selec == "5+":
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo5+.png")
+            image = Image.open(r"Imagenes/r_sismo5+.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -191,7 +191,7 @@ def recomendaciones():
                     st.write("Permanece alerta ante posibles réplicas y sigue las noticias y actualizaciones de las autoridades locales.")
     with col1:
         if selec == "6-":
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo6-.png")
+            image = Image.open(r"Imagenes/r_sismo6-.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -221,7 +221,7 @@ def recomendaciones():
                     st.write("Evalúa cuidadosamente la integridad de los edificios antes de reingresar y utiliza linternas para evitar riesgos eléctricos.") 
                     st.write("Escucha la radio o sigue las redes sociales para obtener información actualizada sobre la situación y las instrucciones de las autoridades.")     
         elif selec == "6+":
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo6+.png")
+            image = Image.open(r"Imagenes/r_sismo6+.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
@@ -252,7 +252,7 @@ def recomendaciones():
                     st.write("Escucha la radio o sigue las redes sociales para obtener información actualizada sobre la situación y las instrucciones de las autoridades.")
     with col1:
         if selec == 7:
-            image = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\API_v2.0\Imagenes\r_sismo7.png")
+            image = Image.open(r"Imagenes/r_sismo7.png")
             st.image(image, f"Sismo de Magnitud {selec}", width=770)
             with col2:
                 st.subheader(f"Recomendaciones")
